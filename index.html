@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>JokenPô</title>
+</head>
+<body>
+
+    <div  class="container">
+        <h1>Joken<span>Pô </span></h1>
+        <div>
+            <button onclick="playthehuman('rock')"  id="rock" ><img class="img-button" src="./assets/rock-hand.png" alt="img Rock hand"></button>
+            <button onclick="playthehuman('paper')" id="paper"><img class="img-button" src="./assets/paper-hand.png" alt="img Paper hand"></button>
+            <button onclick="playthehuman('scissors')" id="scissors"><img class="img-button" src="./assets/scissors-hand.png" alt="img scissors hand"></button>
+        </div>
+        <p class="result">  </p>
+        <p class="your-score">Sua pontuação: <span id="my-score">0</span> </p>
+        <p class="machine">Pontuação Alexa: <span id="machine-score">0</span> </p>
+    </div>
+    <footer>Desenvolvido por Douglas Klimesch </footer>
+</body>
+<script src="./script.js"></script>
+</html>
